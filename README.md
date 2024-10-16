@@ -74,6 +74,48 @@ HLT
 ## Output  
 ![image](https://github.com/user-attachments/assets/6aa8d847-837a-43be-91f1-a7f6d79921ca)
 
+## And of 8 bit numbers ALP
+```assembly
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![and](https://github.com/user-attachments/assets/5eb81a8e-1c95-4679-a6ee-e5045dcb6544)
+
+
+## OR of 8 bit numbers ALP
+```assembly
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![or](https://github.com/user-attachments/assets/b1b5c6be-250d-4e4f-8274-b653d5571dbb)
+
+
+## NOT of 8 bit number ALP
+```assembly
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![not](https://github.com/user-attachments/assets/f7398dd3-81ce-40a1-9912-6be6d474c401)
+
+
+## XOR of 8 bit number ALP
+```assembly
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![xor](https://github.com/user-attachments/assets/ebe30e7e-3037-4c8a-b3f1-d61e56bb98de)
 
 
 ## Result :
